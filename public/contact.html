@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,800&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image"  href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/b480d9d778.js" crossorigin="anonymous"></script>
+    <title>Content Management</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="index.html">
+                <div class="logo"><img src="images/logo.png" /></div>
+              </a>
+            <a href="index.html" class="navbar">Home</a>
+            <a href="contact.html" class="navbar">Contact</a>
+            <i class="fa fa-search" aria-hidden="true"> Search</i>
+        </header>
+        <div class="formContainer">
+            <form action="/contact" class="form" method="post" id="myForm">
+                <input type="text" name="blogTitle" id="blogTitle" placeholder="Enter Blog Title">
+                <input type="text" name="authorName" id="authorName" placeholder="Enter Author Name">
+                <input type="datetime" name="date" id="date" placeholder="Enter Date for publish">
+                <input type="text" name="imgLink" id="imgLink" placeholder="Enter Link For Image">
+                <textarea name="blogContent" id="blogContent" cols="30" rows="10" placeholder="Enter Blog Content"></textarea>
+                <input type="submit" value="Submit" id="submitForm">
+            </form>
+        </div>
+        <footer class="footer">
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/anubhav-verma-7123a1232" target="_blank">
+                <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.instagram.com/av_04dz" target="_blank">
+                <i class="fab fa-instagram fa-2x" aria-hidden="true"></i>
+              </a>
+              <a href="https://github.com/anubhavv106" target="_blank">
+                <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+              </a>
+            </div>
+            <p>Copyright © 2023 Anubhav Verma All Rights Reserved</p>
+          </footer>
+        </div>
+        <script>
+            // JavaScript code to check for query parameters
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            if (urlParams.get('success') === 'true') {
+              alert('Item has been saved to the database');
+            }
+          </script>
+</body>
+
+</html>
