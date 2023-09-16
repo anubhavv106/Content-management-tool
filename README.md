@@ -22,7 +22,7 @@ Before you begin, ensure you have met the following requirements:
 
 - MongoDB: MongoDB is used as the database for this project. It's a NoSQL database that stores our blog content and related data. You can download and install MongoDB from [mongodb.com](https://www.mongodb.com/).
 
-- Code Editor: You will need a code editor to work with the project files. We recommend using [Visual Studio Code](https://code.visualstudio.com/) or any code editor of your choice.
+- IDE: You will need a code editor to work with the project files. We recommend using [Visual Studio Code](https://code.visualstudio.com/) or any code editor of your choice.
 
 ## 🛠️ Usage
 1. Clone this repository: 
