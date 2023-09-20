@@ -4,7 +4,7 @@ This is a content management tool for a blog website, built using HTML, CSS, Jav
 ## 🚀 Features
 - View Existing Blogs
 - Submit New Content
-- Added Alerts when submiting New Blogs
+- Added Alerts when submitting New Blogs
 
 ## 🧰 Technologies Used
 - HTML
