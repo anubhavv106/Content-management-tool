@@ -42,7 +42,9 @@ Open your web browser and navigate to ``` localhost:8000 ```
 
 ## 🎥 Demo Video
 
-https://github.com/anubhavv106/Content-management-tool/assets/112748712/bd44aade-f9dc-4b68-978b-33df3569cc96
+
+https://github.com/anubhavv106/Content-management-tool/assets/112748712/8952d226-e42f-4067-8748-814b57fbb321
+
 
 ## 📝 License
 
